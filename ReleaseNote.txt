@@ -1,5 +1,22 @@
 Release Notification
 ===========================================================================
+ UI_USP 13S2P BMS FW release (Rev. 0.3.0)                        08-26-2021
+
+ File name : UI_13S2P_V00_03.bin
+ Base on   : UI_13S2P_V00_02.bin
+
+ Notification:
+ Fixed:
+    1.> Fix incorrect lifetime data during initialization.
+
+ Modified:
+    1.> Modify RSOC calculation.
+    2.> Store RSOC before shutdown or FW update.
+    3.> Skip timer process after entering sleep.
+
+ Add function:
+
+===========================================================================
  UI_USP 13S2P BMS FW release (Rev. 0.2.0)                        07-27-2021
 
  File name : UI_13S2P_V00_02.bin
