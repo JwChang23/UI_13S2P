@@ -1,5 +1,23 @@
 Release Notification
 ===========================================================================
+ UI_USP 13S2P BMS FW release (Rev. 0.4.0)                        09-07-2021
+
+ File name : UI_13S2P_V00_04.bin
+ Base on   : UI_13S2P_V00_03.bin
+
+ Notification:
+ Fixed:
+ Modified:
+    1.> Modify I2C write commands to verify checksum(CRC8).
+    2.> Delay 5s after receiving sleep and shutdown command.
+
+ Add function:
+    1.> Enable Independent Watchdog Timer function.
+    2.> Add status byte for user to verify command status after sending  
+        sleep and shutdown.
+
+
+===========================================================================
  UI_USP 13S2P BMS FW release (Rev. 0.3.0)                        08-26-2021
 
  File name : UI_13S2P_V00_03.bin
