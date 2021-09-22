@@ -1,5 +1,27 @@
 Release Notification
 ===========================================================================
+ UI_USP 13S2P BMS FW release (Rev. 0.5.0)                        09-22-2021
+
+ File name : UI_13S2P_V00_05.bin
+ Base on   : UI_13S2P_V00_04.bin
+
+ Notification:
+ Fixed:
+    1.> Fix alarm bit of Battery Status assert failed.
+    2.> Fix temperature and over voltage protection failure.
+
+ Modified:
+    1.> Change DOCA bit of Battery Status to read clear.
+    2.> Prevent recording incorrect lifetime data.
+    3.> Store project name into EEPROM.
+    4.> Increase delay time before main loop to prevent progamming failure
+        with STVP.
+
+ Add function:
+    1.> Add AFE status monitor function.
+    2.> Add CRC8 byte after return error code.
+
+===========================================================================
  UI_USP 13S2P BMS FW release (Rev. 0.4.0)                        09-07-2021
 
  File name : UI_13S2P_V00_04.bin
