@@ -1,5 +1,20 @@
 Release Notification
 ===========================================================================
+ UI_USP 13S2P BMS FW release (Rev. 0.6.0)                        10-08-2021
+
+ File name : UI_13S2P_V00_06.bin
+ Base on   : UI_13S2P_V00_05.bin
+
+ Notification:
+ Fixed:
+ Modified:
+    1.> Modify over voltage protection to 54.8V and release at 54.3V.
+
+ Add function:
+    1.> Add Run Time To Empty I2C command(0x11).
+    2.> Add State of Health I2C command(0x4F).
+
+===========================================================================
  UI_USP 13S2P BMS FW release (Rev. 0.5.0)                        09-22-2021
 
  File name : UI_13S2P_V00_05.bin
