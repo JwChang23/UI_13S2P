@@ -1,5 +1,21 @@
 Release Notification
 ===========================================================================
+ UI_USP 13S2P BMS FW release (Rev. 0.7.0)                        10-22-2021
+
+ File name : UI_13S2P_V00_07.bin
+ Base on   : UI_13S2P_V00_06.bin
+
+ Notification:
+ Fixed:
+    1.> Fix discharge MOS sometimes re-open after UVP occurs.
+
+ Modified:
+    1.> Adjust RSOC calculation.
+
+ Add function:
+    1.> Add Charge Time To Full command(0x11).
+
+===========================================================================
  UI_USP 13S2P BMS FW release (Rev. 0.6.0)                        10-08-2021
 
  File name : UI_13S2P_V00_06.bin
